@@ -1,0 +1,1807 @@
+
+*{
+padding:0;
+margin:0;
+}
+
+/* INDEX PAGE8*/
+
+/*Section1*/
+.header-a{
+    background: url('img/background-header.png') no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding:0;
+   position: relative;
+}
+
+.heading-a{
+    display:flex;
+    gap:60px;
+    margin:0px;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+.heading h1{
+    font-size: 100px;
+    font-family: 'Katibeh',serif;
+    color:#ffffff;
+    background: rgba(0, 0, 0, 0.1); /* semi-transparent black background */
+    margin-left: 40px;
+    margin-top:90px;
+    padding-left: 20px;
+    border-radius: 20px;
+    max-width: fit-content;
+    flex:1;
+    padding: 20px;
+}
+
+.buttonImage-index{
+  flex:1;
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  margin-top:50px;
+  padding-bottom:40px;
+}
+
+.buttonImage-index a{
+ margin-bottom:80px;
+ margin-left: 120px;
+ margin-top:5px;
+}
+
+.buttonImage-index img{
+  margin:0;
+ 
+}
+.bttn{
+    display: inline-block;/* so padding will work properly*/
+    background-color:#D2691E;
+    color:#ffffff;
+    font-family: 'Kaushan Script',cursive;
+    text-decoration: none;
+    border-radius :35px;/* to round the corners*/
+    font-size: 28px;
+    padding: 10px;
+    padding-left:25px;
+    padding-right:25px;
+    border: 1px solid #8B4513;
+    cursor: pointer;
+    transition:background-color 0.3s ease; /*smooth hover*/
+    margin-left: 60px;
+    margin-top:0px;
+    flex:1;
+}
+
+.bttn:hover{
+    background-color: #8B4513;
+    color:#ffffff;
+    font-weight: bolder;
+}
+
+.image-profile{
+    flex:1;
+    
+   margin-top:0;
+   overflow: inherit;
+}
+
+.image-profile img{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width:68%; /* image fill container*/
+    max-width:700px;
+    height:auto;/*keeps original aspect ratio*/
+    object-fit:contain;/* image will not crop*/
+    margin:0;
+    padding:0;
+
+}
+
+
+/*Section 2 & Section 3 & Section 4 */
+
+.section2-index{
+    background: url('img/section2-index.png') no-repeat center;
+}
+
+
+.section3-index{
+     background: url('img/section3-index.png') no-repeat center;
+}
+
+.section4-index{
+     background: url('img/section4-index.png') no-repeat center;
+}
+
+.section5-index{
+     background: url('img/section5-index.png') no-repeat center;
+}
+
+.section6-index{
+     background: url('img/section6-index.png') no-repeat center;
+}
+
+
+.section2-index,.section3-index, .section4-index, .section5-index, .section6-index{
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 100px 5px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.div2-index, .div3-index, .div4-index, .div5-index , .div6-index {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 30px;
+    margin:auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* makes it pop */
+}
+.div2-index h2, .div3-index h2, .div4-index h2 , .div5-index h2 ,.div6-index h2{
+    font-size: 90px;
+    font-family: 'Kaushan Script',cursive;
+    color:#E0A020;
+    margin-bottom:20px;
+   
+}
+
+.div2-index p, .div3-index p, .div4-index p, .div5-index p, .div6-index p{
+    font-size: 32px;
+    font-family: 'Katibeh',serif;
+    color:#F0EAD6;
+    line-height: 1.6;
+}
+
+.footer-section{
+    background-color: #504e4e;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section p{
+    color: #F0EAD6;
+    font-size: 14px;
+    margin:10px;
+}
+
+.bold-index{
+    color:#8B4513;
+    font-weight: bold;
+    font-size: 44px;
+}
+/* maximum screen*/
+@media(max-width: 375px){
+  .heading-a{
+    display:flex;
+    gap:10px;
+    margin:0px;
+    flex-direction: column;
+}
+  .heading{
+    width:fit-content;
+    margin-bottom: 0px;
+    margin-right: 15px;
+  }
+
+  .heading h1{
+    font-size: 1.06vh;
+  }
+  /* New flex row for button + image only */
+.buttonImage-index{
+  flex:1;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-top:2px;
+  padding-bottom: 8px;
+  margin: 3px;
+}
+
+.buttonImage-index a{
+ margin-bottom:10px;
+ margin-left: 40px;
+ margin-top:5px;
+}
+
+.buttonImage-index img{
+  margin:0;
+ 
+}
+  .bttn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 32px;
+    border: none;
+    flex-shrink: 0;
+     margin-left: 20px;
+     margin-top: 20px;
+  }
+
+  .image-profile {
+    flex-shrink: 0;
+  
+  }
+
+  .image-profile img {
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .section2-index,.section3-index, .section4-index, .section5-index, .section6-index{
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 100px 15px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.div2-index, .div3-index, .div4-index, .div5-index , .div6-index {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 30px;
+    margin:auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* makes it pop */
+}
+.div2-index h2, .div3-index h2, .div4-index h2 , .div5-index h2 ,.div6-index h2{
+    font-size: 64px;
+    font-family: 'Kaushan Script',cursive;
+    color:#E0A020;
+    margin-bottom:20px;
+   
+}
+
+.div2-index p, .div3-index p, .div4-index p, .div5-index p, .div6-index p{
+    font-size: 36px;
+    font-family: 'Katibeh',serif;
+    color:#F0EAD6;
+    line-height: 1.6;
+}
+
+.footer-section{
+    background-color: #504e4e;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section p{
+    color: #F0EAD6;
+    font-size: 18px;
+    margin:10px;
+}
+
+.bold-index{
+    color:#8B4513;
+    font-weight: bold;
+    font-size: 36px;
+}
+}
+@media(max-width: 428px){
+  .heading-a{
+    display:flex;
+    gap:10px;
+    margin:0px;
+    flex-direction: column;
+}
+  .heading{
+    width:fit-content;
+    margin-bottom: 0px;
+    margin-right: 15px;
+  }
+
+  .heading h1{
+    font-size: 170px;
+  }
+  /* New flex row for button + image only */
+.buttonImage-index{
+  flex:1;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-top:20px;
+  padding-bottom:40px;
+  margin: 40px;
+}
+
+.buttonImage-index a{
+ margin-bottom:10px;
+ margin-left: 40px;
+ margin-top:5px;
+}
+
+.buttonImage-index img{
+  margin:0;
+ 
+}
+  .bttn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 32px;
+    border: none;
+    flex-shrink: 0;
+     margin-left: 20px;
+     margin-top: 20px;
+  }
+
+  .image-profile {
+    flex-shrink: 0;
+  
+  }
+
+  .image-profile img {
+    width: 70%;
+    max-width: 700px;
+    height: auto;
+  }
+
+  .section2-index,.section3-index, .section4-index, .section5-index, .section6-index{
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 100px 15px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.div2-index, .div3-index, .div4-index, .div5-index , .div6-index {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 30px;
+    margin:auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* makes it pop */
+}
+.div2-index h2, .div3-index h2, .div4-index h2 , .div5-index h2 ,.div6-index h2{
+    font-size: 64px;
+    font-family: 'Kaushan Script',cursive;
+    color:#E0A020;
+    margin-bottom:20px;
+   
+}
+
+.div2-index p, .div3-index p, .div4-index p, .div5-index p, .div6-index p{
+    font-size: 36px;
+    font-family: 'Katibeh',serif;
+    color:#F0EAD6;
+    line-height: 1.6;
+}
+
+.footer-section{
+    background-color: #504e4e;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section p{
+    color: #F0EAD6;
+    font-size: 18px;
+    margin:10px;
+}
+
+.bold-index{
+    color:#8B4513;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+}
+@media (min-width: 1025px) and (max-width:1440px) {
+  .heading-a{
+    display:flex;
+    gap:10px;
+    margin:0px;
+    flex-direction: column;
+}
+  .heading{
+    width:fit-content;
+    margin-bottom: 0px;
+    margin-right: 15px;
+  }
+
+  .heading h1{
+    font-size: 11.11vh;
+  }
+  /* New flex row for button + image only */
+.buttonImage-index{
+  flex:1;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-top:20px;
+  padding-bottom:40px;
+  margin: 40px;
+}
+
+.buttonImage-index a{
+ margin-bottom:10px;
+ margin-left: 40px;
+ margin-top:5px;
+}
+
+.buttonImage-index img{
+  margin:0;
+ 
+}
+  .bttn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 2.96vh;
+    border: none;
+    flex-shrink: 0;
+     margin-left: 20px;
+     margin-top: 20px;
+  }
+
+  .image-profile {
+    flex-shrink: 0;
+  
+  }
+
+  .image-profile img {
+    width: 70%;
+    max-width: 560px;
+    height: auto;
+  }
+
+  .section2-index,.section3-index, .section4-index, .section5-index, .section6-index{
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 100px 15px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.div2-index, .div3-index, .div4-index, .div5-index , .div6-index {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    max-width: 1200px;
+    padding: 30px;
+    border-radius: 30px;
+    margin:auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* makes it pop */
+}
+.div2-index h2, .div3-index h2, .div4-index h2 , .div5-index h2 ,.div6-index h2{
+    font-size: 5.93vh; /*64px*/
+    font-family: 'Kaushan Script',cursive;
+    color:#E0A020;
+    margin-bottom:20px;
+   
+}
+
+.div2-index p, .div3-index p, .div4-index p, .div5-index p, .div6-index p{
+    font-size: 3.33vh; /*36px*/
+    font-family: 'Katibeh',serif;
+    color:#F0EAD6;
+    line-height: 1.6;
+}
+
+.footer-section{
+    background-color: #504e4e;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section p{
+    color: #F0EAD6;
+    font-size: 1.67 vh;/*18px*/
+    margin:10px;
+}
+
+.bold-index{
+    color:#8B4513;
+    font-weight: bold;
+    font-size: 3.33vh; /*36px*/
+}
+
+}
+/* === Tablet / small laptop layout (landscape tablets) ===
+   Target: between 768px and 1024px wide
+   Keeps the same left-text / right-image layout as desktop, but scales fonts & images.*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .heading-a{
+    display:flex;
+    gap:10px;
+    margin:0px;
+    flex-direction: column;
+}
+  .heading{
+    width:fit-content;
+    margin-bottom: 0px;
+    margin-right: 5px;
+  }
+
+  .heading h1{
+    font-size: 11.41vh; 
+  }
+  /* New flex row for button + image only */
+.buttonImage-index{
+  flex:1;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-top:20px;
+  padding-bottom:40px;
+   margin-left: 40px;
+}
+
+.buttonImage-index a{
+ margin-bottom:10px;
+ margin-left: 40px;
+ margin-top:5px;
+}
+
+.buttonImage-index img{
+  margin:0;
+ 
+}
+  .bttn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 2.4vh;
+    border: none;
+    flex-shrink: 0;
+     margin-left: 20px;
+     margin-top: 20px;
+  }
+  .bttn:hover{
+    background-color: #8B4513;
+    color:#ffffff;
+    font-weight: bolder;
+}
+
+  .image-profile {
+    flex-shrink: 0;
+  
+  }
+
+  .image-profile img {
+    width: 60%;
+    max-width: 450px;
+    height: auto;
+  }
+
+  .section2-index,.section3-index, .section4-index, .section5-index, .section6-index{
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 60px 15px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.div2-index, .div3-index, .div4-index, .div5-index , .div6-index {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 30px;
+    margin:auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* makes it pop */
+}
+.div2-index h2, .div3-index h2, .div4-index h2 , .div5-index h2 ,.div6-index h2{
+    font-size: 7.19vh;
+    font-family: 'Kaushan Script',cursive;
+    color:#E0A020;
+    margin-bottom:20px;
+   
+}
+
+.div2-index p, .div3-index p, .div4-index p, .div5-index p, .div6-index p{
+    font-size: 4.41vh;
+    font-family: 'Katibeh',serif;
+    color:#F0EAD6;
+    line-height: 1.6;
+}
+
+.footer-section{
+    background-color: #504e4e;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section p{
+    color: #F0EAD6;
+    font-size: 1.6vh;
+    margin:10px;
+}
+
+.bold-index{
+    color:#8B4513;
+    font-weight: bold;
+    font-size: 5.59vh;
+}
+
+}
+/* === MOBILE (<=767px): Heading top, button left, image right === */
+@media (max-width: 768px) {
+
+.heading-a{
+    display:flex;
+    gap:10px;
+    margin:0px;
+    
+    flex-direction: column;
+}
+  .heading{
+    width:fit-content;
+    margin-bottom: 0px;
+    margin-right: 15px;
+    margin-top: 80px;
+  }
+
+  .heading h1{
+    font-size: 6.91vh;
+  }
+  /* New flex row for button + image only */
+.buttonImage-index{
+  flex:1;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-top:20px;
+  padding-bottom:40px;
+}
+
+.buttonImage-index a{
+ margin-bottom:10px;
+ margin-left: 40px;
+ margin-top:5px;
+}
+
+.buttonImage-index img{
+  margin:0;
+ 
+}
+  .bttn {
+    background: #ff6600;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 2.09vh;
+    border: none;
+    flex-shrink: 0;
+    
+  }
+.bttn:hover{
+    background-color: #8B4513;
+    color:#ffffff;
+    font-weight: bolder;
+}
+  .image-profile {
+    flex-shrink: 0;
+  
+  }
+
+  .image-profile img {
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .section2-index,.section3-index, .section4-index, .section5-index, .section6-index{
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 60px 5px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.div2-index, .div3-index, .div4-index, .div5-index , .div6-index {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent black background */
+    max-width: 800px;
+    padding: 15px;
+    border-radius: 30px;
+    margin:10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* makes it pop */
+}
+.div2-index h2, .div3-index h2, .div4-index h2 , .div5-index h2 ,.div6-index h2{
+    font-size: 5.09vh;
+    font-family: 'Kaushan Script',cursive;
+    color:#E0A020;
+    margin-bottom:20px;
+   
+}
+
+.div2-index p, .div3-index p, .div4-index p, .div5-index p, .div6-index p{
+    font-size: 3.41vh;
+    font-family: 'Katibeh',serif;
+    color:#F0EAD6;
+    line-height: 1.6;
+}
+
+.footer-section{
+    background-color: #504e4e;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-section p{
+    color: #F0EAD6;
+    font-size: 1.4vh;
+    margin:10px;
+}
+
+.bold-index{
+    color:#8B4513;
+    font-weight: bold;
+    font-size: 3.60vh;
+}
+
+}
+
+
+/*Sing-In page code*/
+
+.signInBody{
+   background: url('img/section4-index.png') no-repeat center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding: 60px 5px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.Sign-In{
+  display: flex;
+  gap:20px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(248, 230, 179, 0.9);
+  border-radius:20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,1);
+  width: 100%;
+  max-width: 1000px;
+  padding: 60px;
+  margin-top: 60px;
+  margin-left: 90px;
+}
+
+.SignInRight{
+  background: rgba(176, 167, 140, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.signinLeft, .signInright{
+  flex:1;
+   margin: 10px;
+  padding:10px;
+}
+.signinLeft h3{
+  font-family: 'Kaushan Script',cursive; 
+  font-size: 52px;  
+  color:#8B4513;
+}
+
+.signinLeft p{
+  font-family: 'Katibeh',serif;
+  font-size: 28px;
+  color:#8B4513;
+}
+
+.signInright h3{
+  font-family: 'Kaushan Script',cursive; 
+  font-size: 52px;
+  color:#422917;
+}
+
+
+
+/* Form styling */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #7c4208;
+}
+
+.form-group input {
+  width: 90%;
+
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 18px;
+}
+
+/* Submit button */
+.btn {
+  display: inline-block;
+   font-family: 'Katibeh',serif;
+  font-size: 28px;
+  width: 30%;
+ 
+  margin:10px;
+  padding: 5px;
+  
+  text-align: center;
+  background: linear-gradient(45deg, #815205, #ffc371);
+  color: white;
+  text-decoration: none;
+  border-radius: 40px;
+ 
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #ffb866, #d68c0c);
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+}
+
+.Image-Profile-signIn{
+    flex:1;
+    margin-top:0;
+    overflow:inherit;
+}
+
+.Image-Profile-signIn img{
+    position:fixed;
+    bottom: 0;
+    right: 0px;
+    width:50%; /* image fill container*/
+    max-width:450px;
+    height:auto;/*keeps original aspect ratio*/
+    object-fit:cover;/* image will not crop*/
+    margin:0;
+    padding:0;
+
+}
+
+/* Tablet Size*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .signInBody{
+    background: url(img/section4-index.png) no-repeat center;  
+    background-size: cover;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+.signInBackground {
+    background: none;
+}
+  .Sign-In {
+  background: none;
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  padding-top:20px;
+  margin: 10px;
+  box-shadow: none;
+}
+.SignInRight{
+  background: rgba(17, 17, 17, 0.18); 
+  backdrop-filter: blur(12px);          /* blur effect */
+  -webkit-backdrop-filter: blur(12px);  /* Safari support */
+  background: none;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.signinLeft{
+ display: none;
+}
+.signInright{
+  flex: 100%;
+}
+.signInright h3{
+  font-family: 'Kaushan Script',cursive; 
+  font-size: 52px;  
+    color:#a05709;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* glow for visibility */
+     background: linear-gradient(90deg, #ffe45f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #7c4208;
+   background: linear-gradient(90deg, #ffe45f, #bc7e40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.form-group input {
+  width: 90%;
+ 
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 24px;
+  background-color: #f1d7c3;
+  font-family: 'Katibeh',serif;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #ffb866, #d68c0c);
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+}
+
+
+.Image-Profile-signIn{
+    flex:1;
+    margin-top:0;
+    overflow:inherit;
+}
+
+.Image-Profile-signIn img{
+    position:fixed;
+    bottom: 0;
+    right: 0px;
+    width:50%; /* image fill container*/
+    max-width:450px;
+    height:auto;/*keeps original aspect ratio*/
+    object-fit:cover;/* image will not crop*/
+    margin:0;
+    padding:0;
+
+}
+}
+
+
+/*mobile screen*/
+@media (max-width: 767px) {
+  .signInBody{
+    background: url(img/section4-index.png) no-repeat center;  
+    background-size: cover;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+.signInBackground {
+    background: none;
+}
+  .Sign-In {
+  background: none;
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  padding-top:20px;
+  margin: 10px;
+  box-shadow: none;
+}
+.SignInRight{
+  background: rgba(17, 17, 17, 0.18); 
+  backdrop-filter: blur(12px);          /* blur effect */
+  -webkit-backdrop-filter: blur(12px);  /* Safari support */
+  background: none;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.signinLeft{
+ display: none;
+}
+.signInright{
+  flex: 100%;
+}
+.signInright h3{
+  font-family: 'Kaushan Script',cursive; 
+  font-size: 52px;  
+    color:#a05709;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* glow for visibility */
+     background: linear-gradient(90deg, #ffe45f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #7c4208;
+   background: linear-gradient(90deg, #ffe45f, #bc7e40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.form-group input {
+  width: 90%;
+ 
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 24px;
+  background-color: #f1d7c3;
+  font-family: 'Katibeh',serif;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #ffb866, #d68c0c);
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+}
+
+
+.Image-Profile-signIn{
+    flex:1;
+    margin-top:0;
+    overflow:inherit;
+}
+
+.Image-Profile-signIn img{
+    position:fixed;
+    bottom: 0;
+    right: 0px;
+    width:50%; /* image fill container*/
+    max-width:450px;
+    height:auto;/*keeps original aspect ratio*/
+    object-fit:cover;/* image will not crop*/
+    margin:0;
+    padding:0;
+
+}
+}
+
+/* Registration page*/
+
+.signInBody{
+    background: url(img/section3-index.png) no-repeat center;  
+    background-size: cover;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+.Registration {
+  background: none;
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  padding-top:20px;
+  margin: 10px;
+  box-shadow: none;
+}
+.SignInRegistration{
+  background: rgba(17, 17, 17, 0.18); 
+  backdrop-filter: blur(12px);          /* blur effect */
+  -webkit-backdrop-filter: blur(12px);  /* Safari support */
+  background: none;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin: 100px;
+  text-align: center;
+}
+.signInregistration h3{
+  font-family: 'Kaushan Script',cursive; 
+  font-size: 52px;  
+    color:#ba421e;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* glow for visibility */
+     background: linear-gradient(90deg, #ffe45f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #7c4208;
+   background: linear-gradient(90deg, #ffe45f, #bc7e40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.form-group input {
+  width: 90%;
+ 
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 24px;
+  background-color: #f1d7c3;
+  font-family: 'Katibeh',serif;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #ffb866, #d68c0c);
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+}
+
+
+.Image-Profile-signIn{
+    flex:1;
+    margin-top:0;
+    overflow:inherit;
+}
+
+.Image-Profile-signIn img{
+    position:fixed;
+    bottom: 0;
+    right: 0px;
+    width:50%; /* image fill container*/
+    max-width:450px;
+    height:auto;/*keeps original aspect ratio*/
+    object-fit:cover;/* image will not crop*/
+    margin:0;
+    padding:0;
+
+}
+
+@media (min-width: 761px) and (max-width: 1368px) {
+  .signInBody{
+    background: url(img/section3-index.png) no-repeat center;  
+    background-size: cover;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.Registration {
+  background: none;
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+  padding-top:20px;
+  margin: 10px;
+  box-shadow: none;
+}
+.SignInRegistration{
+  background: rgba(17, 17, 17, 0.18); 
+  backdrop-filter: blur(12px);          /* blur effect */
+  -webkit-backdrop-filter: blur(12px);  /* Safari support */
+  background: none;
+  width: 100%;
+   text-align: center;
+   max-width: 500px;
+    margin: 10px;
+    padding:20px;
+}
+
+.signInregistration h3{
+  font-family: 'Kaushan Script',cursive; 
+  font-size: 52px;  
+    color:#ba421e;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* glow for visibility */
+     background: linear-gradient(90deg, #ffe45f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #7c4208;
+   background: linear-gradient(90deg, #ffe45f, #bc7e40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+.form-group input {
+  width: 90%;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 24px;
+  background-color: #f1d7c3;
+  font-family: 'Katibeh',serif;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #ffb866, #d68c0c);
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+}
+
+
+.Image-Profile-signIn{
+    flex:1;
+    margin-top:0;
+    overflow:inherit;
+}
+
+.Image-Profile-signIn img{
+    position:fixed;
+    bottom: 0;
+    right: 0px;
+    width:50%; /* image fill container*/
+    max-width:450px;
+    height:auto;/*keeps original aspect ratio*/
+    object-fit:cover;/* image will not crop*/
+    margin:0;
+    padding:0;
+
+}
+}
+
+@media (max-width: 761px){
+  .signInBody{
+        background: url(img/section3-index.png) no-repeat center;  
+    background-size: cover;
+    height: 100vh;
+    margin: 10px;
+    padding: 40px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+}
+
+.Registration {
+  background: none;
+  width: 70%;
+  max-width: 500px;
+  padding: 10px;
+  padding-top:20px;
+  margin: 10px;
+  box-shadow: none;
+}
+.SignInRegistration{
+  background: rgba(17, 17, 17, 0.18); 
+  backdrop-filter: blur(12px);          /* blur effect */
+  -webkit-backdrop-filter: blur(12px);  /* Safari support */
+  background: none;
+  width: 100%;
+   text-align: center;
+   max-width: 500px;
+    margin: 10px;
+    padding:20px;
+}
+
+.signInregistration h3{
+  font-family: 'Kaushan Script',cursive; 
+  font-size: 52px;  
+    color:#ba421e;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6); /* glow for visibility */
+     background: linear-gradient(90deg, #ffe45f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+  margin-bottom: 5px;
+  color: #7c4208;
+   background: linear-gradient(90deg, #ffe45f, #bc7e40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+
+.form-group input {
+  width: 90%;
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 24px;
+  background-color: #f1d7c3;
+  font-family: 'Katibeh',serif;
+}
+.btn {
+  display: inline-block;
+   font-family: 'Katibeh',serif;
+  font-size: 28px;
+  width: 70%;
+  margin:10px;
+  padding: 5px;
+   text-align: center;
+  background: linear-gradient(45deg, #815205, #ffc371);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background: linear-gradient(45deg, #ffb866, #d68c0c);
+  font-family: 'Katibeh',serif;
+  font-size: 32px;
+  padding:5px;
+}
+
+
+.Image-Profile-signIn{
+    flex:1;
+    margin-top:0;
+    overflow:inherit;
+}
+
+.Image-Profile-signIn img{
+    position:fixed;
+    bottom: 0;
+    right: 0px;
+    width:50%; /* image fill container*/
+    max-width:450px;
+    height:auto;/*keeps original aspect ratio*/
+    object-fit:cover;/* image will not crop*/
+    margin:0;
+    padding:0;
+
+}}
+
+
+/* Game page*/
+/* Font families from Google Fonts */
+.gamePage {
+    font-family: 'Katibeh', serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/section2-index.png) no-repeat center;  
+    background-size: cover;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;/* horizontally center*/
+    align-items: center;/*vertically center*/
+    text-align: center;
+    color: white;
+    
+}
+
+.gameMain {
+   background: rgba(0, 0, 0, 0.15m); /* semi-transparent black background */
+   padding: 20px;
+   display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+
+.gameDiv{
+  flex: 0 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start; /* Align items to left inside the box */
+  width: fit-content;
+}
+.gameImg {
+    flex: 1;
+    max-width: 500px;
+    margin: 0 auto;
+    align-items: left;
+    
+}
+
+.gameConversation{
+  flex: 0 80%;
+   background-color: rgba(0, 0, 0, 0.5); /* black shade with transparency */
+  color: white; /* default text color */
+  width: 40vw; /* adjust width */
+  height: 90vh; /* fixed height */
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: 'Katibeh', serif;
+  font-size: 1.2rem;
+}
+
+#img-girl {
+    width: 98%;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8); /* makes it pop */
+}
+
+#textBox {
+    flex: 1;
+    font-size: 1.8rem;
+    font-family: 'Katibeh',serif;
+    min-height: 40px;
+    width: 500px;
+    height: 45px;
+    color: white;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#send-btn {
+    padding: 10px 20px;
+    background: orange;
+    font-family: 'Katibeh',serif;
+    font-size: 2rem;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 50px;
+    margin-top:10px;
+}
+
+#micToggle {
+    padding: 10px 20px;
+    background: darkred;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Katibeh',serif;
+    font-size: 2rem;
+    margin-left:50px;
+    margin-top:10px;
+    
+}
+
+
+.footer-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    font-size: 0.9rem;
+    margin:0;
+}
+
+/* Chat bubbles */
+.chat-bubble {
+  max-width: 70%;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  position: relative;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+}
+
+.chat-bubble.esmerelda {
+  align-self: flex-start;
+  background: rgba(255, 140, 0, 0.8);
+  border-top-left-radius: 0;
+  color: white;
+}
+
+.chat-bubble.client {
+  align-self: flex-end;
+  background: rgba(0, 0, 0, 0.7);
+  border-top-right-radius: 0;
+  color: white;
+}
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 767px){
+    .gameMain {
+        flex-direction: row; /* keep left-right layout */
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .gameDiv {
+        flex: 40%; /* left side width */
+        align-items: center;
+    }
+    #img-girl {
+    width: 68%;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8); /* makes it pop */
+  }
+
+    .gameConversation {
+        flex: 60%; /* right side fills remaining */
+        height: 70vh;
+        font-size: 1rem;
+    }
+
+    
+    #textBox {
+        font-size: 1.3rem;
+        width: 70%;
+        margin:1vh;
+    }
+
+    .gameMic{
+      display: flex;
+      flex-direction: column;
+      gap:1vh;
+      width: 40vh;
+      margin-left: 2%;
+      margin:0vh;
+    }
+
+    #send-btn, #micToggle {
+        font-size: 0rem;
+        padding: 2px 4px;
+        margin-left:2vh;
+    }
+
+.chat-bubble {
+  max-width: 60%;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 1.3rem;
+  line-height: 1;
+  position: relative;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  margin-bottom: 4px;
+}
+}
+
+/* ----------- Mobile Layout (up to 767px) ----------- */
+/* ----------- MOBILE (up to 767px) ----------- */
+@media (max-width: 767px) {
+  .gameMain {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  .gameDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #img-girl {
+    text-align: left;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  }
+
+  .gameConversation {
+    width: 92%;
+    flex: 1;
+    height: calc(100vh - 150px);
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px 10px 0 0;
+    padding: 6vh 3vh;
+    margin: 2px;
+    box-sizing: border-box;
+  }
+
+  /* --- Bottom input bar --- */
+  .gameText, .gameMic {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh;
+    gap: 6px;
+    box-sizing: border-box;
+    z-index: 999;
+  }
+
+  /* Show both buttons on same row (Send + Mic) */
+  .gameMic {
+    display: flex !important;
+    position: static;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  #textBox {
+    flex: 1;
+    height: 36px;
+    border: none;
+    border-radius: 25px;
+    background: #2c2c2c;
+    color: white;
+    padding: 8px 14px;
+    font-size: 0.95rem;
+    outline: none;
+    font-family: 'Katibeh', serif;
+    margin-bottom: 0px;
+  }
+
+  #textBox::placeholder {
+    color: #aaa;
+  }
+
+  #send-btn {
+    padding: 2vh 4vh;
+    border: none;
+    border-radius: 25px;
+    font-size:0;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+#micToggle {
+   padding: 4vh 6vh;
+  background: darkred;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  text-indent: -9999px; /* hides "Turn On Microphone" text */
+}
+
+/* Add Font Awesome mic icon */
+#micToggle::before {
+  content: "\f130"; /* mic icon */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900; /* VERY important for solid icons */
+  font-size: 1.4rem;
+  color: white;
+  position: absolute;
+  text-indent: 0;
+ padding: 4vh 6vh;
+}
+
+
+  /* Send arrow button */
+  #send-btn {
+     padding: 2vh 6vh;
+    background: #ffa500;
+    border: none;
+    color: #060606;
+    font-size: 1.4rem;
+    margin-left: 10px;
+    cursor: pointer;
+    text-indent: -9999px;
+  }
+
+  #send-btn::before {
+    content: "➤";
+    text-indent: 0;
+  position: absolute;
+  }
+
+  footer.footer-section {
+    display: none;
+  }
+
+  input, textarea {
+    font-size: 16px; /* avoids iPhone zoom */
+  }
+
+  .chat-bubble {
+    max-width: 70%;
+    padding: 10px 14px;
+    border-radius: 18px;
+    font-size: .9rem;
+    line-height: 1;
+    margin-bottom: 8px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
+
+  .chat-bubble.esmerelda {
+    align-self: flex-start;
+    background: rgba(255, 140, 0, 0.85);
+    color: #fff;
+    border-top-left-radius: 4px;
+  }
+
+  .chat-bubble.client {
+    align-self: flex-end;
+    background: rgba(40, 40, 40, 0.85);
+    color: #fff;
+    border-top-right-radius: 4px;
+  }
+
+  @supports (-webkit-touch-callout: none) {
+    .gameText {
+      position: absolute;
+    }
+  }
+}
